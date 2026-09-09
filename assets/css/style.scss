@@ -1,0 +1,35 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* CV page — "Projects" call-to-action button */
+.btn-projects {
+  display: inline-block;
+  margin: 6px 0 20px;
+  padding: 10px 24px;
+  background-color: #267CB9;
+  color: #fff !important;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+}
+.btn-projects:hover,
+.btn-projects:focus {
+  background-color: #1b5c8a;
+  color: #fff !important;
+}
+
+.cv-section {
+  margin-bottom: 28px;
+}
+.cv-section h2 {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 6px;
+}
+.cv-meta {
+  color: #999;
+  font-size: 13px;
+  margin: -14px 0 20px;
+}

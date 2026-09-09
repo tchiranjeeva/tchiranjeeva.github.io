@@ -1,0 +1,32 @@
+title: Thivanka Chiranjeeva
+description: Electronics Engineer & PCB Designer — EV charger hardware, embedded systems, and safety-critical PCB design
+author:
+  name: Thivanka Chiranjeeva
+  email: chiranjeeva8@gmail.com
+
+# Pages shown in the Projects-section nav bar (the minima side).
+# Only pages listed here (that also have a `title` in front matter) appear.
+minima:
+  skin: classic
+  nav_pages:
+    - index.md
+  date_format: "%b %Y"
+  show_excerpts: true
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/tchiranjeeva"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://linkedin.com/in/thivankachiranjeeva"
+  hide_site_feed_link: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
+
+markdown: kramdown

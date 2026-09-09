@@ -7,7 +7,7 @@ title: Home
 
 ## Thivanka Chiranjeeva
 
-**Electronics Engineer | PCB Designer**
+Electronics Engineer | PCB Designer
 
 <p class="cv-meta">Urupitiya, Kuliyapitiya, Sri Lanka</p>
 

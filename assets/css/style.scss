@@ -44,4 +44,87 @@ header ul {
 
 .profile-photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; border: 3px solid #eee; }
 
-p { text-align: justify; hyphens: auto; } li { text-align: left; }
+/* CV content alignment */
+.cv-intro,
+.cv-section {
+  text-align: left;
+}
+
+.cv-intro {
+  margin-bottom: 28px;
+}
+
+.cv-section ul {
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+
+.cv-section li {
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.cv-section h2 {
+  margin-top: 0;
+}
+
+.cv-role {
+  margin-bottom: 6px;
+}
+
+.cv-meta {
+  text-align: left;
+}
+
+.cv-title {
+  margin-bottom: 4px;
+}
+
+.cv-title-separator {
+  margin: 0 8px;
+  color: #999;
+}
+
+.profile-photo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 0 16px;
+  border: 3px solid #eee;
+}
+
+/* Keep long paragraphs readable without forced justification. */
+.cv-intro p {
+  text-align: left;
+}
+
+@media screen and (max-width: 720px) {
+  .cv-section li {
+    margin-bottom: 9px;
+  }
+}
+
+/* Projects / post content alignment */
+.projects-intro {
+  margin-bottom: 24px;
+}
+
+.post-content {
+  text-align: left;
+}
+
+.post-content p,
+.post-content li {
+  text-align: left;
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 22px;
+}
+
+.post-content li {
+  margin-bottom: 6px;
+}

@@ -3,4 +3,4 @@ layout: home
 title: Projects
 ---
 
-Embedded and PCB projects, newest first. Each entry links to a full write-up.
+<div class="projects-intro">Embedded and PCB projects, newest first. Each entry links to a full project write-up.</div>

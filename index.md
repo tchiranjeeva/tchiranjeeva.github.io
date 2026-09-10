@@ -3,13 +3,19 @@ layout: default
 title: Home
 ---
 
+<img src="{{ '/assets/img/Profile Photo.png' | relative_url }}" alt="Thivanka Chiranjeeva" class="profile-photo">
+
 <a class="btn-projects" href="{{ '/projects/' | relative_url }}">View My Projects →</a>
+
+## Thivanka Chiranjeeva
+
+**Electronics Engineer**|**PCB Designer**
 
 <p class="cv-meta">Urupitiya, Kuliyapitiya, Sri Lanka</p>
 
-Innovative and detail oriented electronics engineer with extensive
+Innovative and detail-oriented electronics engineer with extensive
 experience in PCB design, embedded systems development, and EV charger
-technology. Proven track record in designing safety critical systems with
+technology. Proven track record in designing safety-critical systems with
 robust communication interfaces. Passionate about creating reliable
 hardware solutions that meet industry standards while advancing technology.
 
@@ -25,10 +31,10 @@ hardware solutions that meet industry standards while advancing technology.
 <div class="cv-section" markdown="1">
 ## Technical Skills
 
-- **PCB Design:** High speed PCB design, impedance control, EMI/EMC, RF layout, signal integrity, DFM/DFA
+- **PCB Design:** High-speed PCB design, impedance control, EMI/EMC, RF layout, signal integrity, DFM/DFA
 - **EDA Tools:** KiCad, Altium Designer
 - **Embedded Programming & Platforms:** C, STM32, ESP32, Arduino
-- **Circuit Design & Simulation:** Analog & digital circuit design, power electronics, LTspice
+- **Circuit Design & Simulation:** Analog &amp; digital circuit design, power electronics, LTspice
 - **CAD & Mechanical Tools:** AutoCAD
 - **Hardware Testing & Debugging:** Oscilloscope, multimeter, logic analyzer, circuit root-cause analysis
 </div>
@@ -59,13 +65,13 @@ hardware solutions that meet industry standards while advancing technology.
 <div class="cv-section" markdown="1">
 ## Education
 
-**B.Eng. (Hons) in Electrical & Electronics Engineering**<br>
-University of the West of England, Bristol (UK), 2nd Class Lower Division · 2024 – 2025<br>
-*Relevant coursework:* Power Electronics, Control Systems, Energy Technologies, Digital Signal Processing, Digital Electronics, Signal Processing & Circuits
+**B.Eng. (Hons) in Electrical & Electronics Engineering** — *2nd Class Lower Division*<br>
+University of the West of England, Bristol (UK) · 2024 – 2025<br>
+Relevant coursework: Power Electronics, Control Systems, Energy Technologies, Digital Signal Processing, Digital Electronics, Signal Processing & Circuits
 
-**National Diploma in Technology (NDT) — Electronic & Telecommunication**<br>
-University of Moratuwa – Institute of Technology, GPA 3.5/4.0 · 2020 – 2023<br>
-*Relevant coursework:* Embedded Systems, Mechatronics & Automation, Computer Applications, Electrical Machines, Power Systems, Analog Electronics
+**National Diploma in Technology (NDT) — Electronic & Telecommunication** · GPA 3.5/4.0<br>
+University of Moratuwa – Institute of Technology · 2020 – 2023<br>
+Relevant coursework: Embedded Systems, Mechatronics & Automation, Computer Applications, Electrical Machines, Power Systems, Analog Electronics
 </div>
 
 <div class="cv-section" markdown="1">

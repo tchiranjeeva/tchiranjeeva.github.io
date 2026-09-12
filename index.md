@@ -15,7 +15,7 @@ title: Home
 
 <p class="cv-meta">Urupitiya, Kuliyapitiya, Sri Lanka</p>
 
-Innovative and detail-oriented electronics engineer with experience in PCB design, embedded systems development, and EV charger technology. Proven track record in designing safety critical systems with robust communication interfaces. Passionate about creating reliable hardware solutions that meet industry standards while advancing technology.
+Innovative and detail oriented electronics engineer with experience in PCB design, embedded systems development, and EV charger technology. Proven track record in designing safety critical systems with robust communication interfaces. Passionate about creating reliable hardware solutions that meet industry standards while advancing technology.
 
 </div>
 
@@ -42,20 +42,20 @@ Innovative and detail-oriented electronics engineer with experience in PCB desig
 <div class="cv-section" markdown="1">
 ## Professional Experience
 
-<div class="cv-role" markdown="1">**Electronics Engineer** — Vega Innovations · *Sep 2025 – Present*</div>
+<div class="cv-role" markdown="1">**Electronics Engineer** - Vega Innovations · *Sep 2025 – Present*
 - Designed, developed, and debugged Level 2 EV charger hardware for reliable operation across multiple deployment environments
 - Developed and validated embedded firmware for hardware verification, including J1772 protocol implementation in compliance with EV charging standards
 - Led IPC-compliant PCB design and layout, focusing on performance, reliability, and scalability for commercial products
 - Optimized Bill of Materials (BOM) using Design for Manufacturability (DFM) principles, reducing hardware cost by up to 20%
 - Collaborated with cross-functional teams to integrate hardware solutions with software platforms and cloud connectivity features
 
- <div class="cv-role" markdown="1">**Associate Electronics Engineer** — Vega Innovations · *Mar 2024 – Aug 2025*</div>
+ <div class="cv-role" markdown="1">**Associate Electronics Engineer** - Vega Innovations · *Mar 2024 – Aug 2025*
 - Designed and validated the main controller PCB for EV chargers with Ethernet, USB, RS485, CAN, and UART interfaces
 - Designed and implemented electrical safety circuits, including surge protection, GFI, and PEN detection, meeting regulatory requirements
 - Performed BOM optimization and component selection to improve cost efficiency and component availability
 - Designed and documented wire harness assemblies, ensuring manufacturability and compliance with system requirements
 
-<div class="cv-role" markdown="1">**Trainee Electronics Engineer** — Vega Innovations · *Feb 2023 – Feb 2024*</div>
+<div class="cv-role" markdown="1">**Trainee Electronics Engineer** - Vega Innovations · *Feb 2023 – Feb 2024*
 - Gained hands-on experience in PCB design, analog circuit design, circuit simulation, and SMD soldering
 - Performed hardware debugging and root cause analysis to resolve complex circuit and production issues
 - Prepared and managed Bills of Materials (BOM) and coordinated PCB fabrication and assembly processes
@@ -65,11 +65,11 @@ Innovative and detail-oriented electronics engineer with experience in PCB desig
 <div class="cv-section" markdown="1">
 ## Education
 
-**B.Eng. (Hons) in Electrical & Electronics Engineering** — *2nd Class Lower Division*<br>
+**B.Eng. (Hons) in Electrical & Electronics Engineering** - *2nd Class Lower Division*<br>
 University of the West of England, Bristol (UK) · 2024 – 2025<br>
 Relevant coursework: Power Electronics, Control Systems, Energy Technologies, Digital Signal Processing, Digital Electronics, Signal Processing & Circuits
 
-**National Diploma in Technology (NDT) — Electronic & Telecommunication** · GPA 3.5/4.0<br>
+**National Diploma in Technology (NDT) - Electronic & Telecommunication** · GPA 3.5/4.0<br>
 University of Moratuwa – Institute of Technology · 2020 – 2023<br>
 Relevant coursework: Embedded Systems, Mechatronics & Automation, Computer Applications, Electrical Machines, Power Systems, Analog Electronics
 </div>
@@ -77,8 +77,8 @@ Relevant coursework: Embedded Systems, Mechatronics & Automation, Computer Appli
 <div class="cv-section" markdown="1">
 ## Certifications & Professional Development
 
-- Embedded Machine Learning for Edge Computing — University of Moratuwa (2022)
-- Microcontroller Based System Design — University of Moratuwa (2021)
+- Embedded Machine Learning for Edge Computing - University of Moratuwa (2022)
+- Microcontroller Based System Design - University of Moratuwa (2021)
 </div>
 
 <a class="btn-projects" href="{{ '/projects/' | relative_url }}">View My Projects →</a>

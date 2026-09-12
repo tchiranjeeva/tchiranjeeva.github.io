@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<img src="{{ '/assets/img/Profile Photo.png' | relative_url }}" alt="Thivanka Chiranjeeva" class="profile-photo">
+<img src="{{ '/assets/img/Profile Photo.jpeg' | relative_url }}" alt="Thivanka Chiranjeeva" class="profile-photo">
 
 <a class="btn-projects" href="{{ '/projects/' | relative_url }}">View My Projects →</a>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Power Input Protection System"
-date: 2026-08-10
+date: 2026-08-14
 ---
 
 A 6-layer protection PCB built for adverse electrical conditions

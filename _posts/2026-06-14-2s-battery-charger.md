@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2S Battery Charger"
-date: 2026-09-02
+date: 2026-06-14
 ---
 
 A 4-layer Li-Po battery charger and boost converter board with USB-C power

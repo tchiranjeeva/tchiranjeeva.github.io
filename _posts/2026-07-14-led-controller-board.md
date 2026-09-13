@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LED Controller Board"
-date: 2026-09-07
+date: 2026-07-14
 ---
 
 A 4-layer controller board for a flexible LED strip, built around an ESP32

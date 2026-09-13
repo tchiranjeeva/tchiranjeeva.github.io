@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sensor Controller"
-date: 2026-09-05
+date: 2026-07-16
 ---
 
 An ESP32-based sensor control PCB for intelligent monitoring and

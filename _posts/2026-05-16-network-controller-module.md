@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Network Controller Module"
-date: 2026-07-28
+date: 2026-05-16
 ---
 
 A compact, pluggable, modular 4-layer PCB integrating a microprocessor and

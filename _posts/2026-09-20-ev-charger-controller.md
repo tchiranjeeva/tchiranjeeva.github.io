@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Level 2 EV Charger Controller Board"
-date: 2026-09-01
+date: 2026-09-20
 ---
 
 A 4-layer EV charger controller board designed in KiCad, built around an

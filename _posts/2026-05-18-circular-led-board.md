@@ -4,7 +4,7 @@ title: "Circular LED Board"
 date: 2026-09-03
 ---
 
-A circular-shaped LED controller designed for automotive applications,
+A circular shaped LED controller designed for automotive applications,
 with onboard regulation and transient protection.
 
 <!--more-->
@@ -20,7 +20,7 @@ with onboard regulation and transient protection.
 ## Details
 
 Built for the automotive electrical environment, where voltage spikes and
-transients are routine — the LDO keeps the LED supply stable, and the TVS
+transients are routine.The LDO keeps the LED supply stable, and the TVS
 diode clamps transient spikes before they reach the rest of the circuit.
 The round form factor suits automotive lighting fixtures where a
 rectangular board wouldn't fit as cleanly.

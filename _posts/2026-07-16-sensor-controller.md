@@ -23,7 +23,7 @@ automation, with multiple regulated power rails and CAN communication.
 ## Details
 
 A compact, versatile board aimed at precision control and data
-acquisition — the multiple regulated rails let it directly power a mix of
+acquisition.The multiple regulated rails let it directly power a mix of
 sensors and actuators (flow/seed sensors, a stepper driver, a solenoid
 driver, a load cell amplifier) without external supplies, while CAN gives
 it a robust link into a larger control network.

@@ -15,16 +15,16 @@ delivery input and a regulated 12 V boost output.
 
 - **Input:** USB Type-C, power delivery
 - **Charging:** 2-cell (2S) Li-Po balance charging with safety protection
-- **Output:** High-efficiency boost converter, regulated 12 V
+- **Output:** High efficiency boost converter, regulated 12 V
 - **Layers:** 4
 
 ## Details
 
 Takes USB-C power delivery in and handles balanced charging across two
 Li-Po cells, with the usual protection circuitry to keep that safe. A
-high-efficiency boost stage then steps the battery's output up to a
+high efficiency boost stage then steps the battery's output up to a
 regulated 12 V rail, making the board double as both a charger and a
-portable 12 V power source. The 4-layer stack-up was chosen for better
+portable 12 V power source. The 4-layer stack up was chosen for better
 signal integrity, power distribution, and thermal performance in a compact
 footprint.
 

@@ -23,7 +23,7 @@ data acquisition, built around an ATmega1284P.
 
 ## Details
 
-Built as a modular, field-deployable controller for remote monitoring
+Built as a modular, field deployable controller for remote monitoring
 the SDI-12 interface and pulse input cover common environmental sensors,
 while the LoRa/Sigfox module handles long range backhaul where cellular or
 Wi-Fi isn't practical. Multiple regulated rails and a wide 5-15 V input

@@ -4,7 +4,7 @@ title: "Custom Shape PCB for PWM Generation"
 date: 2026-09-09
 ---
 
-A custom-shaped 4-layer add-on PCB designed to solder directly onto an
+A custom shaped 4-layer add-on PCB designed to solder directly onto an
 existing piece of hardware using castellated holes.
 
 <!--more-->
@@ -20,9 +20,9 @@ existing piece of hardware using castellated holes.
 
 ## Details
 
-Rather than a standalone board, this was designed as an add-on that
+Rather than a standalone board, this was designed as an add on that
 solders directly onto an existing piece of hardware to extend its
-functionality — generating PWM signals for it. The castellated holes along
+functionality generating PWM signals for it. The castellated holes along
 the board edge let it solder cleanly and reliably onto the host hardware's
 existing pins, and the outline was custom-shaped to fit the available
 space rather than using a standard rectangular board.

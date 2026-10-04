@@ -9,7 +9,7 @@ A compact, pluggable, modular 4-layer PCB integrating a microprocessor and
 
 <!--more-->
 
-<img src="{{ '/assets/img/projects/network-controller-render.jpg' | relative_url }}" alt="network controller render">
+<img src="{{ '/assets/img/projects/network-controller-render.png' | relative_url }}" alt="network controller render">
 
 ## Overview
 

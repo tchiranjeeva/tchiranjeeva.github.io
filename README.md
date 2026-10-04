@@ -1,4 +1,4 @@
-# Thivanka Chiranjeeva — Portfolio
+# Thivanka Chiranjeeva - Portfolio
 
 Personal CV and project portfolio, live at **[tchiranjeeva.github.io](https://tchiranjeeva.github.io/)**.
 

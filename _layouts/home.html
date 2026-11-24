@@ -10,7 +10,7 @@ layout: base
   {{ content }}
 
 
-  {% if site.paginate %}
+  {% if site.paginate and paginator.posts %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
@@ -38,30 +38,36 @@ layout: base
       {%- endfor -%}
     </ul>
 
-    {% if site.paginate %}
+    {%- if site.paginate and paginator.total_pages > 1 -%}
       <div class="pager">
         <ul class="pagination">
         {%- if paginator.previous_page %}
           <li>
-            <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="Go to Page {{ paginator.previous_page }}">
-              {{ paginator.previous_page }}
-            </a>
+            <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="Previous Page">&laquo;</a>
           </li>
         {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <li><div class="pager-edge">&laquo;</div></li>
         {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
+
+        {%- for page_num in (1..paginator.total_pages) -%}
+          {%- if page_num == paginator.page -%}
+            <li><div class="current-page">{{ page_num }}</div></li>
+          {%- elsif page_num == 1 -%}
+            <li><a href="{{ '/projects/' | relative_url }}" title="Go to Page 1">1</a></li>
+          {%- else -%}
+            <li><a href="{{ site.paginate_path | replace: ':num', page_num | relative_url }}" title="Go to Page {{ page_num }}">{{ page_num }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+
         {%- if paginator.next_page %}
           <li>
-            <a href="{{ paginator.next_page_path | relative_url }}" class="next-page" title="Go to Page {{ paginator.next_page }}">
-              {{ paginator.next_page }}
-            </a>
+            <a href="{{ paginator.next_page_path | relative_url }}" class="next-page" title="Next Page">&raquo;</a>
           </li>
         {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <li><div class="pager-edge">&raquo;</div></li>
         {%- endif %}
         </ul>
       </div>
-    {%- endif %}
+    {%- endif -%}
   {%- endif -%}
 </div>

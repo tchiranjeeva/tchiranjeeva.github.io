@@ -1,2 +1,31 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.pagination {
+  margin: 32px auto;
+
+  li {
+    a {
+      border-radius: 4px;
+      transition: all 0.2s ease;
+
+      &:hover {
+        border-color: #267CB9;
+        color: #267CB9;
+      }
+    }
+
+    div.current-page {
+      border: 1px solid #267CB9 !important;
+      color: #267CB9 !important;
+      font-weight: 700;
+      border-radius: 4px;
+      background-color: rgba(38, 124, 185, 0.08);
+    }
+
+    div.pager-edge {
+      border-radius: 4px;
+      opacity: 0.45;
+    }
+  }
+}

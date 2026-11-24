@@ -2,6 +2,7 @@
 layout: post
 title: "Diesel Heater Controller"
 date: 2026-08-16
+image: "/assets/img/projects/diesel-heater-front.png"
 ---
 
 A controller PCB for diesel heaters built around an ESP32, with Bluetooth

@@ -2,6 +2,7 @@
 layout: post
 title: "Equine Wearable Tracker"
 date: 2026-07-20
+image: "/assets/img/projects/equine-tracker-render.png"
 ---
 
 A compact 4-layer wearable PCB for equine health and location monitoring,

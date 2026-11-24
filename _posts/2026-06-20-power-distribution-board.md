@@ -2,6 +2,7 @@
 layout: post
 title: "Power Distribution Board"
 date: 2026-06-20
+image: "/assets/img/projects/power-distribution-render.png"
 ---
 
 A compact power distribution board for a 4S LiPo system, with fused ESC

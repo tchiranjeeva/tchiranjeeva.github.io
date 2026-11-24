@@ -2,6 +2,7 @@
 layout: post
 title: "Circular LED Board"
 date: 2026-05-18
+image: "/assets/img/projects/circular-led-board.png"
 ---
 
 A circular shaped LED controller designed for automotive applications,

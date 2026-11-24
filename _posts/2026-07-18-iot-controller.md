@@ -2,6 +2,7 @@
 layout: post
 title: "IoT Controller (Stratus Log)"
 date: 2026-07-18
+image: "/assets/img/projects/iot-controller-render.png"
 ---
 
 A 4-layer industrial IoT controller for remote environmental monitoring and

@@ -9,34 +9,55 @@ layout: base
 
   {{ content }}
 
-
   {% if site.paginate and paginator.posts %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
 
-
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+    <div class="projects-grid">
+      {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
       {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+        {%- assign post_img = post.image -%}
+        {%- unless post_img -%}
+          {%- if post.content contains '<img' -%}
+            {%- assign post_img = post.content | split: '<img' | last | split: 'src="' | last | split: '"' | first -%}
+          {%- endif -%}
+        {%- endunless -%}
+
+        <article class="project-card">
+          <a href="{{ post.url | relative_url }}" class="project-card-thumb" aria-label="{{ post.title | escape }}">
+            {%- if post_img -%}
+              <img src="{{ post_img | relative_url }}" alt="{{ post.title | escape }}" loading="lazy" class="project-card-img">
+            {%- else -%}
+              <div class="project-card-placeholder">
+                <span>Hardware Project</span>
+              </div>
+            {%- endif -%}
           </a>
-        </h3>
-        {%- if site.minima.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+
+          <div class="project-card-content">
+            <div class="project-card-date">{{ post.date | date: date_format }}</div>
+            <h2 class="project-card-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            {%- if site.minima.show_excerpts and post.excerpt -%}
+              <p class="project-card-excerpt">
+                {{ post.excerpt | strip_html | strip_newlines | truncatewords: 22 }}
+              </p>
+            {%- endif -%}
+            <div class="project-card-footer">
+              <a href="{{ post.url | relative_url }}" class="project-card-link">View Project &rarr;</a>
+            </div>
+          </div>
+        </article>
       {%- endfor -%}
-    </ul>
+    </div>
 
     {%- if site.paginate and paginator.total_pages > 1 -%}
       <div class="pager">

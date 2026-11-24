@@ -2,6 +2,7 @@
 layout: post
 title: "RGB LED Controller Using Power Over RS485"
 date: 2026-08-20
+image: "/assets/img/projects/rs485-led-render1.png"
 ---
 
 A compact 4-layer PCB for controlling WS2812 addressable RGB LEDs using

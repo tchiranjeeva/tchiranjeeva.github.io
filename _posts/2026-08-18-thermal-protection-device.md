@@ -2,6 +2,7 @@
 layout: post
 title: "Thermal Protection Device"
 date: 2026-08-18
+image: "/assets/img/projects/thermal-protection-device-render.png"
 ---
 
 A 4-layer PCB for a thermal safety device designed to prevent electrical

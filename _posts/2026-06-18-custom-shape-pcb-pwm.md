@@ -2,6 +2,7 @@
 layout: post
 title: "Custom Shape PCB for PWM Generation"
 date: 2026-06-18
+image: "/assets/img/projects/custom-shape-pcb-photo.png"
 ---
 
 A custom shaped 4-layer add-on PCB designed to solder directly onto an

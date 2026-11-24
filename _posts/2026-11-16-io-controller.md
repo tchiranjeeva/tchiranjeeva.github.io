@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I/O Controller"
-date: 2027-01-16
+date: 2026-11-16
 order: 4
 image: "/assets/img/projects/io-controller-render.png"
 ---

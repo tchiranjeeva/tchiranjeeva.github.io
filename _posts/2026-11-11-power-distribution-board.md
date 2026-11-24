@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Power Distribution Board"
-date: 2027-01-11
+date: 2026-11-11
 order: 9
 image: "/assets/img/projects/power-distribution-render.png"
 ---

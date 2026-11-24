@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Diesel Heater Controller"
-date: 2027-01-09
+date: 2026-11-09
 order: 11
 image: "/assets/img/projects/diesel-heater-front.png"
 ---

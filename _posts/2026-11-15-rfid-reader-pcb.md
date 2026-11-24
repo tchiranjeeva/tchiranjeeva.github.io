@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RFID Reader PCB"
-date: 2027-01-15
+date: 2026-11-15
 order: 5
 image: "/assets/img/projects/rfid-reader-render.png"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stratus Logger"
-date: 2027-01-12
+date: 2026-11-12
 order: 8
 image: "/assets/img/projects/stratus-logger-render.png"
 ---

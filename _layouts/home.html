@@ -29,8 +29,6 @@ layout: base
           {%- endif -%}
         {%- endunless -%}
 
-        {%- assign order_padded = post.order | default: forloop.index | prepend: '0' | slice: -2, 2 -%}
-
         <article class="project-card">
           <a href="{{ post.url | relative_url }}" class="project-card-thumb" aria-label="{{ post.title | escape }}">
             {%- if post_img -%}
@@ -40,7 +38,7 @@ layout: base
                 <span>Hardware Project</span>
               </div>
             {%- endif -%}
-            <span class="project-card-badge">Project {{ order_padded }}</span>
+            <span class="project-card-badge">{% if post.order < 10 %}Project 0{{ post.order }}{% else %}Project {{ post.order }}{% endif %}</span>
           </a>
 
           <div class="project-card-content">

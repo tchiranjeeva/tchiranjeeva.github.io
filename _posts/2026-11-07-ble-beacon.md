@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BLE Beacon"
-date: 2027-01-07
+date: 2026-11-07
 order: 13
 image: "/assets/img/projects/ble-beacon-front.png"
 ---

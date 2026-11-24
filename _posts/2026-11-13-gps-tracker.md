@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GPS Tracker"
-date: 2027-01-13
+date: 2026-11-13
 order: 7
 image: "/assets/img/projects/equine-tracker-render.png"
 ---

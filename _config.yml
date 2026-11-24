@@ -28,6 +28,7 @@ plugins:
 
 paginate: 10
 paginate_path: "/projects/page:num/"
+future: true
 
 sass:
   quiet_deps: true

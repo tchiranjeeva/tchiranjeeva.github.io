@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Touch Controlled Flex LED Strip"
-date: 2027-01-10
+date: 2026-11-10
 order: 10
 image: "/assets/img/projects/flex-touch-controller-render.png"
 ---

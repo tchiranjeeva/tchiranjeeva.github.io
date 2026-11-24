@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Circular LED Board"
-date: 2027-01-03
+date: 2026-11-03
 order: 17
 image: "/assets/img/projects/circular-led-board.png"
 ---

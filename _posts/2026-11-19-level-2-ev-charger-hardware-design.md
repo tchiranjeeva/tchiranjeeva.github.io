@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Level 2 EV Charger Hardware Design"
-date: 2027-01-19
+date: 2026-11-19
 order: 1
 image: "/assets/img/projects/ev-charger-render.png"
 ---

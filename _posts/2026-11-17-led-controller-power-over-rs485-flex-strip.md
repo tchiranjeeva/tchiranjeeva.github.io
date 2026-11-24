@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LED Controller with Power over RS485 + Flex LED Strip"
-date: 2027-01-17
+date: 2026-11-17
 order: 3
 image: "/assets/img/projects/rs485-led-controller-board.jpg"
 ---

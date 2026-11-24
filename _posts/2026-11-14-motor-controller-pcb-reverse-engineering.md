@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Motor Controller PCB Reverse Engineering"
-date: 2027-01-14
+date: 2026-11-14
 order: 6
 image: "/assets/img/projects/motor-controller-render.png"
 ---

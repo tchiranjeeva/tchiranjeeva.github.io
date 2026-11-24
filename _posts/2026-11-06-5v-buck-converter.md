@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5V Buck converter"
-date: 2027-01-06
+date: 2026-11-06
 order: 14
 image: "/assets/img/projects/5v-buck-converter-render.png"
 ---

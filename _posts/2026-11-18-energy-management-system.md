@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Energy Management System (EMS)"
-date: 2027-01-18
+date: 2026-11-18
 order: 2
 image: "/assets/img/projects/ems-controller-top.png"
 ---

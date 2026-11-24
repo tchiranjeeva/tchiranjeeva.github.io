@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linear Voltage Regulators"
-date: 2027-01-01
+date: 2026-11-01
 order: 19
 image: "/assets/img/projects/linear-regulator-v1.png"
 ---

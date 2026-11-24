@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2S Li-Po Charger and 12V Boost Converter"
-date: 2027-01-05
+date: 2026-11-05
 order: 15
 image: "/assets/img/projects/2s-lipo-charger-boost-render.png"
 ---

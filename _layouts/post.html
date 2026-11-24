@@ -10,7 +10,7 @@ layout: base
         <div class="post-top-nav">
           <a href="{{ '/projects/' | relative_url }}" class="back-to-projects">&larr; Back to all projects</a>
         </div>
-        <div class="post-project-tag">Project {{ page.order | prepend: '0' | slice: -2, 2 }}</div>
+        <div class="post-project-tag">{% if page.order < 10 %}Project 0{{ page.order }}{% else %}Project {{ page.order }}{% endif %}</div>
         <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       </header>
 
@@ -43,7 +43,7 @@ layout: base
       <nav class="project-pagination">
         {% if prev_project %}
           <a href="{{ prev_project.url | relative_url }}" class="project-pagination-card prev-card">
-            <span class="pagination-sublabel">&larr; Previous Project ({{ prev_project.order | prepend: '0' | slice: -2, 2 }})</span>
+            <span class="pagination-sublabel">&larr; Previous Project ({% if prev_project.order < 10 %}0{{ prev_project.order }}{% else %}{{ prev_project.order }}{% endif %})</span>
             <span class="pagination-project-title">{{ prev_project.title }}</span>
           </a>
         {% else %}
@@ -52,7 +52,7 @@ layout: base
 
         {% if next_project %}
           <a href="{{ next_project.url | relative_url }}" class="project-pagination-card next-card">
-            <span class="pagination-sublabel">Next Project ({{ next_project.order | prepend: '0' | slice: -2, 2 }}) &rarr;</span>
+            <span class="pagination-sublabel">Next Project ({% if next_project.order < 10 %}0{{ next_project.order }}{% else %}{{ next_project.order }}{% endif %}) &rarr;</span>
             <span class="pagination-project-title">{{ next_project.title }}</span>
           </a>
         {% endif %}
@@ -90,7 +90,7 @@ layout: base
               {% endif %}
               <li class="sidebar-item {% if is_current %}is-active{% endif %}">
                 <a href="{{ p.url | relative_url }}" class="sidebar-link">
-                  <span class="sidebar-item-order">{{ p.order | prepend: '0' | slice: -2, 2 }}</span>
+                  <span class="sidebar-item-order">{% if p.order < 10 %}0{{ p.order }}{% else %}{{ p.order }}{% endif %}</span>
                   <span class="sidebar-item-title">{{ p.title }}</span>
                 </a>
               </li>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sensor Controller"
-date: 2027-01-08
+date: 2026-11-08
 order: 12
 image: "/assets/img/projects/sensor-controller-render.png"
 ---
